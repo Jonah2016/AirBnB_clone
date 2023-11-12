@@ -67,7 +67,8 @@ class HBNBCommand(cmd.Cmd):
             arg_len = [arg[:match_arg.span()[0]], arg[match_arg.span()[1]:]]
             match_arg = re.search(r"\((.*?)\)", arg_len[1])
             if match_arg is not None:
-                command = [arg_len[1][:match_arg.span()[0]], match_arg.group()[1:-1]]
+                command = [arg_len[1][:match_arg.span()[0]],
+                           match_arg.group()[1:-1]]
                 if command[0] in dict_args.keys():
                     call = "{} {}".format(arg_len[0], command[1])
                     return dict_args[command[0]](call)
@@ -198,7 +199,8 @@ class HBNBCommand(cmd.Cmd):
             obj = dict_object["{}.{}".format(arg_len[0], arg_len[1])]
             for key, val in eval(arg_len[2]).items():
                 if (key in obj.__class__.__dict__.keys() and
-                        type(obj.__class__.__dict__[key]) in {str, int, float}):
+                        type(obj.__class__.__dict__[key])
+                        in {str, int, float}):
                     val_type = type(obj.__class__.__dict__[key])
                     obj.__dict__[key] = val_type(val)
                 else:
