@@ -1,11 +1,23 @@
 footer {
+<<<<<<< HEAD
 	background-color: white;
     height: 60px;
     width: 100%;
     border-top: 1px solid #CCCCCC;
+=======
+    background-color: white;
+    border-top: 1px solid #CCCCCC;
+    height: 60px;
+    width: 100%;
+>>>>>>> c7b7a5d6141379ce7c41e11fa8ba0458e9e141db
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
 	bottom: 0;
 }
+=======
+    bottom: 0;
+}
+>>>>>>> c7b7a5d6141379ce7c41e11fa8ba0458e9e141db

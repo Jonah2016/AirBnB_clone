@@ -1,7 +1,11 @@
 /****************************************************************************/
 /* reset css */
 /****************************************************************************/
+<<<<<<< HEAD
 *{
+=======
+* {
+>>>>>>> c7b7a5d6141379ce7c41e11fa8ba0458e9e141db
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -9,21 +13,34 @@
 	border: none;
 	outline: none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7b7a5d6141379ce7c41e11fa8ba0458e9e141db
 /****************************************************************************/
 /* common styles */
 /****************************************************************************/
 html {
+<<<<<<< HEAD
   box-sizing: border-box;
 }
 
 /****************************************************************************/
 /* mobile first resposive */
+=======
+	box-sizing: border-box;
+}
+
+/****************************************************************************/
+/* mobile first resposiveness */
+>>>>>>> c7b7a5d6141379ce7c41e11fa8ba0458e9e141db
 /****************************************************************************/
 
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) */
 body {
 	font-size: 14px;
+<<<<<<< HEAD
 	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
   width: 100%;
   color: #484848;
@@ -39,6 +56,25 @@ span {
   flex-direction: column;
   flex-grow: 1;
   margin: 2rem auto;
+=======
+	font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+	color: #484848;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+span {
+	color: #000000;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin: 2rem auto;
+>>>>>>> c7b7a5d6141379ce7c41e11fa8ba0458e9e141db
 }
 
 /*****************************/
@@ -47,14 +83,23 @@ span {
 .container {
 	z-index: 0;
 }
+<<<<<<< HEAD
 .div_price_by_night {
 	z-index: 10;
 }
+=======
+
+.price_by_night_div {
+	z-index: 10;
+}
+
+>>>>>>> c7b7a5d6141379ce7c41e11fa8ba0458e9e141db
 * {
 	z-index: inherit;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+<<<<<<< HEAD
 @media only screen and (min-width: 600px) {
 
 }
@@ -62,6 +107,13 @@ span {
 @media only screen and (min-width: 768px) {
 
 }
+=======
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+>>>>>>> c7b7a5d6141379ce7c41e11fa8ba0458e9e141db
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
@@ -69,4 +121,8 @@ span {
 		max-width: 1920px;
 		margin: 0 auto;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c7b7a5d6141379ce7c41e11fa8ba0458e9e141db
